@@ -16,7 +16,7 @@ import { useRouter } from 'src/routes/hooks';
 import { RouterLink } from 'src/routes/components';
 
 import { fDate } from 'src/utils/format-time';
-import { fShortenNumber } from 'src/utils/format-number';
+// import { fShortenNumber } from 'src/utils/format-number';
 
 import { maxLine } from 'src/theme/styles';
 
@@ -55,8 +55,7 @@ export function PostItemHorizontal({ post }: Props) {
       <Card sx={{ display: 'flex' }}>
         <Stack spacing={1} sx={{ p: theme.spacing(3, 3, 2, 3) }}>
           <Box display="flex" alignItems="center" justifyContent="space-between" sx={{ mb: 2 }}>
-            <Label variant="soft" color={'default'}>
-              {/* {publish} */}
+            <Label variant="soft" color="default">
               Draftss
             </Label>
 
@@ -96,19 +95,16 @@ export function PostItemHorizontal({ post }: Props) {
             >
               <Box display="flex" alignItems="center" gap={0.5}>
                 <Iconify icon="eva:message-circle-fill" width={16} />
-                {/* {fShortenNumber(totalComments)} */}
                 10
               </Box>
 
               <Box display="flex" alignItems="center" gap={0.5}>
                 <Iconify icon="solar:eye-bold" width={16} />
-                {/* {fShortenNumber(totalViews)} */}
                 20
               </Box>
 
               <Box display="flex" alignItems="center" gap={0.5}>
                 <Iconify icon="solar:share-bold" width={16} />
-                {/* {fShortenNumber(totalShares)} */}
                 30
               </Box>
             </Box>

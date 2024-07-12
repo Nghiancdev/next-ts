@@ -19,7 +19,7 @@ import { orderBy } from 'src/utils/helper';
 
 import { POST_SORT_OPTIONS } from 'src/_mock';
 import { DashboardContent } from 'src/layouts/dashboard';
-import { useGetPosts, useSearchPosts, useGetPodCast } from 'src/actions/blog';
+import { useGetPodCast, useGetPosts, useSearchPosts } from 'src/actions/blog';
 
 import { Label } from 'src/components/label';
 import { Iconify } from 'src/components/iconify';
@@ -38,7 +38,7 @@ export function PostListView() {
 
   const debouncedQuery = useDebounce(searchQuery);
 
-  const { posts, postsLoading } = useGetPosts();
+  const { posts } = useGetPosts();
   const { podcasts, podcastsLoading } = useGetPodCast();
   const { searchResults, searchLoading } = useSearchPosts(debouncedQuery);
 

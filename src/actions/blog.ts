@@ -1,4 +1,4 @@
-import type { IPostItem, IPodcast } from 'src/types/blog';
+import type { IPodcast, IPostItem } from 'src/types/blog';
 
 import useSWR from 'swr';
 import { useMemo } from 'react';

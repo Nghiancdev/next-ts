@@ -49,7 +49,6 @@ export type IPostItem = {
   favoritePerson: { name: string; avatarUrl: string }[];
   author: { name: string; avatarUrl: string };
 };
-/////////podcast
 
 export type IUser = {
   _id: string;
