@@ -1,4 +1,4 @@
-import type { IPostItem, IPodcast } from 'src/types/blog';
+import type { IPodcast } from 'src/types/blog';
 
 import Box from '@mui/material/Box';
 import Pagination, { paginationClasses } from '@mui/material/Pagination';
