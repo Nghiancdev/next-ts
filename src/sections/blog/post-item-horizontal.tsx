@@ -57,7 +57,7 @@ export function PostItemHorizontal({ post }: Props) {
           <Box display="flex" alignItems="center" justifyContent="space-between" sx={{ mb: 2 }}>
             <Label variant="soft" color={'default'}>
               {/* {publish} */}
-              Draft
+              Draftss
             </Label>
 
             <Box component="span" sx={{ typography: 'caption', color: 'text.disabled' }}>
