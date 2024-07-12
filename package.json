@@ -4,7 +4,9 @@
   "version": "6.0.1",
   "description": "Next & TypeScript",
   "private": true,
+  "homepage": "https://Nghiancdev.github.io/next-ts",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "next dev -p 8082",
     "start": "next start -p 8082",
     "build": "next build",
@@ -73,6 +75,7 @@
     "embla-carousel-react": "^8.1.5",
     "firebase": "^10.12.2",
     "framer-motion": "^11.2.10",
+    "gh-pages": "^6.1.1",
     "i18next": "^23.11.5",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-resources-to-backend": "^1.2.1",
