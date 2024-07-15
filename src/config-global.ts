@@ -41,8 +41,8 @@ export type ConfigValue = {
 export const CONFIG: ConfigValue = {
   site: {
     name: 'Minimals',
-    serverIkigaiUrl: process.env.NEXT_PUBLIC_SERVER_IKIGAI_URL ?? '',
-    serverUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? '',
+    serverIkigaiUrl: 'https://api.ikigai.ikigroup.vn' ?? '',
+    serverUrl: 'https://api-dev-minimal-v6.vercel.app' ?? '',
     assetURL: process.env.NEXT_PUBLIC_ASSET_URL ?? '',
     basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? '',
     version: packageJson.version,
