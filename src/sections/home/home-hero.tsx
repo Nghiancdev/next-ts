@@ -152,7 +152,7 @@ export function HomeHero({ sx, ...other }: StackProps) {
             startIcon={<Iconify width={24} icon="iconoir:flash" />}
           >
             <span>
-              Live preview
+              Live previewd
               <Box
                 component="small"
                 sx={{

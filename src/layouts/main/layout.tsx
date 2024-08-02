@@ -16,7 +16,7 @@ import { Footer, HomeFooter } from './footer';
 import { HeaderBase } from '../core/header-base';
 import { LayoutSection } from '../core/layout-section';
 import { navData as mainNavData } from '../config-nav-main';
-
+import App from '../../ikitech/App';
 import type { NavMainProps } from './nav/types';
 
 // ----------------------------------------------------------------------
@@ -44,6 +44,8 @@ export function MainLayout({ sx, data, children }: MainLayoutProps) {
 
   return (
     <>
+      <App />
+
       <NavMobile data={navData} open={mobileNavOpen.value} onClose={mobileNavOpen.onFalse} />
 
       <LayoutSection

@@ -7,7 +7,7 @@ import { Iconify } from 'src/components/iconify';
 // ----------------------------------------------------------------------
 
 export const navData = [
-  { title: 'Home', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
+  { title: 'Homed', path: '/', icon: <Iconify width={22} icon="solar:home-2-bold-duotone" /> },
   {
     title: 'Components',
     path: paths.components,
